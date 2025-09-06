@@ -18,6 +18,7 @@ RUN pip3 install \
     spikingjelly \
     snntorch \
     bash-completion \
+    tonic \
     && rm -rf /root/.cache/pip
        
 # Create the user
